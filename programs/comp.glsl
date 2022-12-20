@@ -2,7 +2,7 @@
 
 layout (local_size_x = 16, local_size_y = 16, local_size_z = 1) in;
 
-// refer to this https://www.khronos.org/opengl/wiki/Data_Type_(GLSL)#Opaque_types
+// refer to this https://www.khronos.org/opengl/wiki/Layout_Qualifier_(GLSL)
 layout(rgba32f, location=0) uniform image2D texture_buffer;
 
 /*
